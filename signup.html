@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+
+<head>
+  <meta charset="utf-8">
+  <title>Sign-up</title>
+  <link href="css/module.css" rel="stylesheet">
+  <link href="css/grid.css" rel="stylesheet">
+  <link href="css/type.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Dosis' rel='stylesheet' type='text/css">
+  <link href='https://fonts.googleapis.com/css?family=Abril+Fatface' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <meta name="handheldfriendly" content="true">
+  <meta name="mobileoptimized" content="240">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+<body>
+
+    <ul class="skip-links">
+      <li><a href="#nav">Jump to Navigation</a></li>
+      <li><a href="#personal">Jump to personal information input</a></li>
+      <li><a href="#plan">Jump to choose your plan</a></li>
+      <li><a href="#account">Jump to add account information</a></li>
+      <li><a href="#payment">Jump to payment method</a></li>
+      <li><a href="#submit">Jump to submit form</a></li>
+      <li><a href="#footer">Jump to footer</a></li>
+    </ul>
+
+
+  <header class="masthead push-0" role="banner" id="masthead">
+    <div class="grid grid-bottom">
+
+        <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 island">
+        <a href="index.html"><h1 class="push-0">
+          <img class="img-flex logo" src="img/logo.png" alt="Smart-Path"></h1></a>
+        </div>
+
+        <nav class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 text-right grid-bottom" role="nav" id="nav">
+          <ul class="list-group tera push-0 nav">
+              <li class="list-group__item list-group_item--inline"><a href="tour.html">Tour</a></li>
+              <li class="list-group__item list-group_item--inline"><a href="prices.html">Prices</a></li>
+              <li class="list-group__item list-group_item--inline sign"><a href="signup.html">SIGN-UP</a></li>
+          </ul>
+        </nav>
+
+    </div>
+  </header>
+
+<div class="back">
+  <div class="embed embed--3by1 hero push-0 boryel">
+      <img class="embed__item" src="img/getstarted.jpg" alt="">
+  </div>
+
+  <div class="bar push-0">
+      <h2 class="yotta push-0">Sign up</h2>
+      <h3 class="peta">And get started today</h3>
+  </div>
+</div>
+
+
+<div class="grid greyb island grid-bottom" role="personal" id="personal">
+
+      <form action="https://formspree.io/shaw0106@algonquinlive.com" method="post">
+        <input type="hidden" name="_next" value="//site.io/thanks.html">
+
+
+        <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2 gutter">
+          <legend class="exa push">Personal Info</legend>
+          <label for="name">Name</label>
+          <input id="name" required name="name">
+        </div>
+
+        <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2 gutter">
+          <label for="email">Email</label>
+          <input id="email" type="email" name="email" required placeholder="you@yours.com">
+        </div>
+  </div>
+
+<div class="grid pro island grid-bottom plan" role="plan" id="plan">
+
+        <fieldset class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2 gutter">
+
+          <legend class="exa push">Choose Your Plan</legend>
+
+        <div class="gutter">
+          <input id="monthly" type="radio" name="period-choose">
+          <label for="monthly">Monthly Payment</label>
+        </div>
+
+        <div class="gutter">
+          <input id="yearly" type="radio" name="period-choose">
+          <label for="yearly">Yearly Payment</label>
+        </div>
+
+        </fieldset>
+
+        <fieldset class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2 gutter">
+
+          <input id="basic" type="radio" name="package-choose" value="basic">
+          <label for="basic">Basic Package</label>
+
+          <input id="pro" type="radio" name="package-choose" value="pro">
+          <label for="pro">Pro Package</label>
+
+          <input id="enterprise" type="radio" name="package-choose" value="enterprise">
+          <label for="enterprise">Enterprise Package</label>
+
+
+        </fieldset>
+
+</div>
+
+
+
+
+  <div class="grid greyb island grid-bottom" role="account" id="account">
+
+    <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2 gutter">
+      <legend class="exa push">Account Information</legend>
+
+        <label for="user-name">User Name</label>
+        <input id="user-name" type="text" name="text" required>
+      </div>
+
+      <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2 gutter">
+          <label for="password">Password</label>
+          <input id="password" type="password" name="password" required>
+        </div>
+    </div>
+
+<div class="grid grid-bottom island pro">
+
+
+    <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2 gutter">
+      <legend class="exa push">Payment Method</legend>
+      <label for="subject">Payment Method</label>
+      <select id="subject" name="_subject" required name"subject">
+        <option></option>
+        <option>Mastercard</option>
+        <option>American Express</option>
+      </select>
+    </div>
+</div>
+
+    <div class="grid island pro">
+        <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2 gutter">
+            <label for="credit-number">Credit Card Number</label>
+            <input id="credit-number" type="text" name="text" required>
+          </div>
+
+          <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2 gutter">
+              <label for="security-num">Security Number</label>
+              <input id="security-num" type="text" name="text" required>
+            </div>
+    </div>
+
+
+
+    <div>
+          <div class="island-2" id="submit" role="submit">
+            <button type="submit" class="imgbox-2">Submit</button>
+          </div>
+    </div>
+
+          <input type="hidden" name="_next" value="https://shaw0106.github.io/forms/thankyou.html">
+        </form>
+
+
+
+
+
+
+  <footer role="footer" id="footer">
+
+    <div class="grid grid-bottom">
+
+      <div class="unit unit-xs-1-2 unit-s-1-2 unit-m-1-2 unit-l-1-2 gutter">
+          <a href="index.html"><img class="img-flex logo" src="img/logo.png"></a>
+      </div>
+
+      <div class="unit unit-xs-1-2 unit-s-1-2 unit-m-1-2 unit-l-1-2 pin-bottom-right">
+        <a href="https://www.linkedin.com/" class="icon-button linkedin">
+          <i class="fa fa-linkedin"></i><span></span></a>
+
+        <a href="http://github.com" class="icon-button github">
+          <i class="fa fa-github"></i><span></span></a>
+
+        <a href="http://plus.google.com" class="icon-button google-plus">
+          <i class="fa fa-google-plus"></i><span></span></a>
+
+      </div>
+    </div>
+
+  </footer>
+
+</body>
+</html>
