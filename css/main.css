@@ -19,13 +19,12 @@ a:hover{color:grey;text-decoration:none}
 .suc h3{line-height:1.5}
 .pro{background-color:#e0e0e0;border:none}
 h4{background-color:#f2eb43}
-.sub{text-align:centered;}
 .greyb{background-color:#f3f3f3}
 .group{font-family:"Dosis",sans-serif}
 .fieldset{border:none}
 .profile{border-radius:100px 0 100px 100px}
 .back{background-color:#f3f3f3}
-.icon-button{background-color:#fff;border-radius:10px 0 10px 10px;display:inline-block;height:3.6rem;line-height:3.6rem;margin:0 5px;font-size:2.5em;position:relative;text-align:center;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;width:3.6rem}
+.icon-button{background-color:#fff;border-radius:10px 0 10px 10px;display:inline-block;height:3.6rem;line-height:3.6rem;margin:0 5px;font-size:1em;position:relative;text-align:center;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;width:3.6rem}
 .icon-button span{border-radius:0;display:block;height:0;left:50%;margin:0;position:absolute;top:50%;-webkit-transition:all .3s;-moz-transition:all .3s;-o-transition:all .3s;transition:all .3s;width:0}
 .icon-button:hover span{width:3.6rem;height:3.6rem;border-radius:10px 0 10px 10px;margin:-1.8rem;background-color:#000}
 .icon-button i{background:none;height:3.6rem;left:0;line-height:3.6rem;position:absolute;top:0;-webkit-transition:all .3s;-moz-transition:all .3s;-o-transition:all .3s;transition:all .3s;width:3.6rem;z-index:10}
